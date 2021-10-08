@@ -22,7 +22,9 @@ class MachineStatus(enum.IntEnum):
     On = 1
     Running = 2
     Paused = 3
+    Done = 4
     Scheduled = 5
+    AutoDry = 6
 
 
 class ProgramStatus(enum.IntEnum):
